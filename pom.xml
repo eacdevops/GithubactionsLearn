@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>GithubactionsLearn</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -18,10 +18,10 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.projectKey>NidaAP_Demo</sonar.projectKey>
-		<sonar.organization>nidaap</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+<!-- 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.projectKey>eacdevops_GithubactionLearn</sonar.projectKey>
+		<sonar.organization>eacdevops</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url> -->
 
 	</properties>
 
@@ -41,7 +41,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>demo</finalName>
+		<finalName>GithubactionsLearn</finalName>
 
 		<plugins>
 
@@ -123,8 +123,8 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>GitHub NidaAP Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/nidaap/demo</url>
+			<name>GitHub eacdevops Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/eacdevops/GithubactionsLearn</url>
 		</repository>
 	</distributionManagement>
 </project>
