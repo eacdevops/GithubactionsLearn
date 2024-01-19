@@ -19,9 +19,9 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  
         with:
           args:
-            -Dsonar.projectKey=gitbot-nida_githubactions-ci
-            -Dsonar.organization=gitbot-nida
-            -Dsonar.qualitygate.wait=true
+            -Dsonar.projectKey=eacdevops_GithubactionsLearn
+            -Dsonar.organization=eacdevops
+            
 
   build_test:
     needs: StaticAnalysis
